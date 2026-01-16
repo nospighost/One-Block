@@ -1,0 +1,9 @@
+name: Job
+version: '1.0'
+main: de.Main.JobPlugin
+api-version: '1.21'
+authors: []
+description: Ein Job Plugin zum austoben
+loadafter: [PlotSquared]
+loadbefore:
+  - CustomEnchants

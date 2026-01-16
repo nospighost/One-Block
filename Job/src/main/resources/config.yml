@@ -1,0 +1,368 @@
+database:
+  host: localhost
+  port: 3308
+  database: Job
+  user: root
+  password: geheim
+
+
+
+jobPrefix: "§b§lJob §8>> §7"
+
+jobBlackList:
+  - Plot
+
+flyBoosterBlackList:
+  - world
+
+moneyBoosterBlackList:
+  - testworld
+
+xpBoosterBlackList:
+  - testworld
+hasteBoosterBlackList:
+  - testworld
+
+boosterHostServer: true
+jobs:
+  Gourmet:
+    blocks:
+      APPLE:
+        xp: 25
+      GOLDEN_CARROT:
+        xp: 25
+      BREAD:
+        xp: 10
+  Holzfäller:
+    blocks:
+      OAK_LOG:
+        xp: 5
+      WARPED_STEM:
+        xp: 5
+      BIRCH_LOG:
+        xp: 4
+      SPRUCE_LOG:
+        xp: 4
+      DARK_OAK_LOG:
+        xp: 5
+      JUNGLE_LOG:
+        xp: 4
+      ACACIA_LOG:
+        xp: 4
+      MANGROVE_LOG:
+        xp: 6
+      SHROOM_LIGHT:
+        xp: 5
+      TWISTING_VINES:
+        xp: 5
+      CRIMSON_STEM:
+        xp: 5
+      PALE_OAK_LOG:
+        xp: 5
+
+  Miner:
+    blocks:
+      STONE:
+        xp: 1
+      COAL_ORE:
+        xp: 5
+      IRON_ORE:
+        xp: 15
+      GOLD_ORE:
+        xp: 20
+      LAPIS_ORE:
+        xp: 30
+      DIAMOND_ORE:
+        xp: 50
+      EMERALD_ORE:
+        xp: 75
+      NETHER_QUARTZ_ORE:
+        xp: 10
+      NETHER_GOLD_ORE:
+        xp: 8
+      DEEPSLATE_COAL_ORE:
+        xp: 8
+      DEEPSLATE_IRON_ORE:
+        xp: 25
+      DEEPSLATE_GOLD_ORE:
+        xp: 30
+      DEEPSLATE_LAPIS_ORE:
+        xp: 45
+      DEEPSLATE_DIAMOND_ORE:
+        xp: 75
+      DEEPSLATE_EMERALD_ORE:
+        xp: 100
+      DEEPSLATE_NETHER_QUARTZ_ORE:
+        xp: 15
+      DEEPSLATE_NETHER_GOLD_ORE:
+        xp: 12
+      DEEPSLATE_COPPER_ORE:
+        xp: 20
+      WARPED_WART_BLOCK:
+        xp: 1
+      WARPED_NYLIUM:
+        xp: 1.2
+      GRANITE:
+        xp: 1
+      BASALT:
+        xp: 1
+      GLOWSTONE:
+        xp: 5
+      DIORITE:
+        xp: 1
+      ANDESITE:
+        xp: 1
+      DEEPSLATE:
+        xp: 1
+      TUFF:
+        xp: 2.5
+      SPAWNER:
+        xp: 250
+      ANCIENT_DEBRIS:
+        xp: 100
+      NETHER_BRICKS:
+        xp: 1
+      NETHER_BRICK_FENCE:
+        xp: 1
+  Gräber:
+    blocks:
+      GRASS_BLOCK:
+        xp: 5
+      WARPED_FUNGUS:
+        xp: 1
+      CRIMSON_ROOTS:
+        xp: 1
+      DIRT:
+        xp: 1
+      CLAY:
+        xp: 6
+      SAND:
+        xp: 2
+      GRAVEL:
+        xp: 4
+      MOSS_BLOCK:
+        xp: 7
+      PODZOL:
+        xp: 5
+      RED_SAND:
+        xp: 2
+      SOUL_SAND:
+        xp: 2
+      SOUL_SOIL:
+        xp: 2
+      NETHER_WART:
+        xp: 1
+  Fischer:
+    blocks:
+      COD:
+        xp: 3
+      SALMON:
+        xp: 3
+      PUFFERFISH:
+        xp: 2
+      TROPICAL_FISH:
+        xp: 1
+
+      SADDLE:
+        xp: 50
+      NAME_TAG:
+        xp: 30
+      BOW:
+        xp: 25
+      ENCHANTED_BOOK:
+        xp: 40
+      FISHING_ROD:
+        xp: 20
+
+      CLAY_BALL:
+        xp: 6
+      LEATHER_BOOTS:
+        xp: 4
+      LEATHER:
+        xp: 3
+      BONE:
+        xp: 2
+      STICK:
+        xp: 1
+      STRING:
+        xp: 2
+      ROTTEN_FLESH:
+        xp: 1
+      SAND:
+        xp: 2
+      GRAVEL:
+        xp: 4
+      MOSS_BLOCK:
+        xp: 7
+      PODZOL:
+        xp: 5
+  Farmer:
+    blocks:
+      WHEAT:
+        xp: 5
+      PUMPKIN:
+        xp: 1
+      MELON:
+        xp: 6
+      BEETROOTS:
+        xp: 2
+      CARROTS:
+        xp: 4
+      POTATO:
+        xp: 7
+      HAY_BLOCK:
+        xp: 5
+  Jäger:
+    blocks:
+      ZOMBIE:
+        xp: 5
+      CREEPER:
+        xp: 1
+      SHEEP:
+        xp: 6
+      SPIDER:
+        xp: 2
+      PIG:
+        xp: 4
+      SKELETON:
+        xp: 7
+      COW:
+        xp: 10
+      CHICKEN:
+        xp: 20
+      WITCH:
+        xp: 20
+      ENDERMAN:
+        xp: 15
+      BLAZE:
+        xp: 10
+      PIGLIN:
+        xp: 10
+      PIGLIN_BRUTE:
+        xp: 10
+      ZOMBIFIED_PIGLIN:
+        xp: 10
+      WITHER_SKELETON:
+        xp: 10
+      GHAST:
+        xp: 20
+      ELDER_GUARDIAN:
+        xp: 250
+      WARDEN:
+        xp: 250
+      RAVAGER:
+        xp: 50
+      WOLF:
+        xp: 10
+      FOX:
+        xp: 10
+      SQUID:
+        xp: 5
+      GLOW_SQUID:
+        xp: 5
+      DROWNED:
+        xp: 10
+      PHANTOM:
+        xp: 15
+      RABBIT:
+        xp: 5
+      TURTLE:
+        xp: 5
+      HUSK:
+        xp: 10
+      STRAY:
+        xp: 10
+      PILLAGER:
+        xp: 15
+      VINDICATOR:
+        xp: 15
+      EVOKER:
+        xp: 20
+      AXOLOTL:
+        xp: 5
+      MAGMA_SLIME:
+        xp: 5
+      GOAT:
+        xp: 5
+      ALLAY:
+        xp: 5
+      SNOW_GOLEM:
+        xp: 5
+      IRON_GOLEM:
+        xp: 10
+      CAT:
+        xp: 5
+      PARROT:
+        xp: 5
+      BEE:
+        xp: 5
+
+booster:
+  haste:
+    1: 250
+    2: 500
+    3: 750
+  fly:
+    1: 800
+    2: 800
+    3: 800
+  money:
+    1: 500
+    2: 650
+    3: 750
+  xp:
+    1: 500
+    2: 650
+    3: 750
+
+  moneyMultiplicator:
+    1: 1
+    2: 2 #+ 200% Money z.B
+    3: 3
+  xpMultiplicator:
+    1: 0.5
+    2: 1 #+ 200% XP z.B
+    3: 2
+
+BohrerWhiteList:
+  - STONE
+  - DIRT
+  - SAND
+  - GRAVEL
+  - STONE_BRICK
+  - IRON_ORE
+  - COAL_ORE
+  - GOLD_ORE
+  - REDSTONE_ORE
+  - LAPIS_ORE
+  - DIAMOND_ORE
+  - EMERALD_ORE
+  - DEEPSLATE
+  - TUFF
+  - NETHERRACK
+  - QUARTZ_ORE
+  - DEEPSLATE_IRON_ORE
+  - DEEPSLATE_COAL_ORE
+  - DEEPSLATE_GOLD_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - TERRACOTTA
+  - WHITE_TERRACOTTA
+  - ORANGE_TERRACOTTA
+  - MAGENTA_TERRACOTTA
+  - LIGHT_BLUE_TERRACOTTA
+  - YELLOW_TERRACOTTA
+  - LIME_TERRACOTTA
+  - PINK_TERRACOTTA
+  - GRAY_TERRACOTTA
+  - LIGHT_GRAY_TERRACOTTA
+  - CYAN_TERRACOTTA
+  - PURPLE_TERRACOTTA
+  - BLUE_TERRACOTTA
+  - BROWN_TERRACOTT
+  - GREEN_TERRACOTTA
+  - BLACK_TERRACOTTA
+
+
