@@ -1,0 +1,6 @@
+name: OneBlock
+version: '1.0-SNAPSHOT'
+main: org.oneblock.OneBlock
+api-version: '1.21'
+prefix: [OneBlock]
+authors: [nospighost,Fabian260108]

@@ -1,0 +1,51 @@
+isDataBaseEnabled: false # not suported yet
+worldAfterIslandDeleted: world # world you get teleported to after your island is deleted
+mobSpawnChance: 10
+actionBar:
+  enabled: true # Toggle the actionbar
+  message: "&b&lWave: %wave% &7| %bar% &7|&a&lMissing: %missingBlocks%" # %wave%, %bar%, %missingBlocks%, %totalBlocks%, %name%
+  completedMessage: "&b&lDurchgespielt! &7| %bar% &7|&a&lMissing: %name%" # %wave%, %bar%, %missingBlocks%, %totalBlocks%, %name%
+
+waves:
+  1:
+    name: "§a§lAnfänger"
+    blockAmount: 100
+    blocks:
+      - STONE
+      - COBBLESTONE
+      - DIRT
+      - GRASS_BLOCK
+      - OAK_LOG
+    mobs:
+      - ZOMBIE
+  2:
+    name: "§a§lFortgeschritten"
+    blockAmount: 111
+    blocks:
+      - STONE
+      - COBBLESTONE
+      - DIRT
+      - GRASS_BLOCK
+      - OAK_LOG
+      - IRON_ORE
+    mobs:
+      - ZOMBIE
+      - SKELETON
+      - SPIDER
+  3:
+    name: "§a§lHöhle"
+    blockAmount: 122
+    blocks:
+      - STONE
+      - COBBLESTONE
+      - DIRT
+      - GRASS_BLOCK
+      - OAK_LOG
+      - IRON_ORE
+    mobs:
+      - ZOMBIE
+      - SKELETON
+      - SPIDER
+
+
+

@@ -1,0 +1,45 @@
+prefix: "&b&lOneBlock &7&l>> &r"
+reload-error: "<prefix> &c&lFehler beim Neuladen!"
+
+visit-success: "<prefix> &a&lDu hast die Insel erfolgreich betreten!"
+visit-denied: "<prefix> &c&lDu darfst diese Insel nicht besuchen!"
+visit-error: "<prefix> &c&lFehler beim Besuch! Melde dich bitte bei einem Entwickler / Supporter!"
+
+already-has-island: "<prefix> &c&lDu besitzt bereits eine Insel!"
+no-island: "<prefix> &c&lDu besitzt keine Insel!"
+
+creating-running: "<prefix> &b&lErstelle Insel bitte habe Geduld..."
+create-success: "<prefix> &b&Deine Insel wurde erfolgreich erstellt!"
+create-error: "<prefix> &c&lFehler beim Erstellen der Insel! Bitte melde dich bei einem Entwickler / Supporter!"
+
+island-invitation-alreadyInvited: "<prefix> &c&lDer Spieler &b&l%player% &c&lhat bereits eine Einladung erhalten!"
+
+
+island-delete-success: "<prefix> &c&lDu hast deine Insel &a&lerfolgreich &c&lgelöscht!"
+island-delete-error: "<prefix> &c&lFehler beim Löschen der Insel! Bitte melde dich bei einem Entwickler / Supporter!"
+
+island-accept-invitation-notInvited: "<prefix> &c&lDu hast keine Einladung von &b&l%player% &c&lerhalten!"
+island-accept-invitation: "<prefix> &a&lDu hast &b&lder Einladung &azur &b&lInselmitgliedschaft &a&langenommen!"
+island-deny-trust: "<prefix> &c&lDu hast &b&lder Einladung &c&lverweigert!"
+
+island-trust-invitation: "<prefix> &a&lDu hast eine Einladung von dem Spieler &b&l %player% &a&l zu seiner Insel erhalten!"
+island-trust-error: "<prefix> &c&lFehler beim Einladen des Spielers!"
+island-trust-invitation-error: "<prefix> &c&lFehler beim Einladen der Einladung (Trust)!"
+
+island-remove: "<prefix> &a&lDu hast &b&l%player% &a&l von deiner Insel entfernt!"
+island-remove-notAMember: "<prefix> &c&lDieser Spieler ist nicht auf deiner Insel hinzugefügt!"
+island-remove-error: "<prefix> &c&lFehler beim Entfernen des Spielers!"
+
+island-deny-alreadyDenied: "<prefix> &c&lDu hast diesen Spieler bereits verweigert!"
+island-deny-player: "<prefix> &c&lDu hast den Spieler &b&l%player% &c&lverweigert auf deine Insel zu gehen!"
+
+island-deny-player-error: "<prefix> &c&lFehler beim Verweigern des Spielers!"
+
+island-unban-success: "<prefix> &a&lDu hast den Spieler &b&l%player% &a&laufgehoben!"
+island-unban-error: "<prefix> &c&lFehler beim Entfernen des Spielers!"
+
+island-allow-visit-success: "<prefix> &a&lNiemand ab nun an deine Insel betreten!"
+island-allow-visit-error: "<prefix> &c&lFehler beim Ändern der Besuchereinstellungen!"
+
+
+visited-not-allowed: "<prefix> &b&lDu darfst diese Insel nicht besuchen!"
